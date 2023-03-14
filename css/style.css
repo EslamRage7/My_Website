@@ -294,6 +294,10 @@ body {
   .contact button {
     width: 100px;
   } 
+.bar .circle {
+  width:15px;
+  height:15px
+  }
 }
 .contact .facebook,
 .contact .linkedin,
