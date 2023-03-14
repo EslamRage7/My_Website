@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+h2 {
+  font-weight: 100;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+h4 {
+  font-size: 15px;
+  margin-bottom: 15px;
+  opacity: 0.6;
+}
+.clear {
+  clear: both;
+}
+.container {
+  width: 95%;
+  margin: auto;
+}
+/* start header */
+nav {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  box-shadow: 8px -1px 8px black;
+  background-color: white;
+}
+nav ul {
+  list-style: none;
+  margin-left: 17px;
+  margin-right: 20px;
+}
+nav ul li {
+  padding: 16px 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 4px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+nav ul li:hover {
+  background-color: gray;
+}
+.one {
+  float: left;
+}
+.two,
+.three,
+.four {
+  float: right;
+}
+
+nav ul li span {
+  font-weight: bold;
+}
+.landing {
+  position: relative;
+}
+.landing img {
+  width: 100%;
+}
+.landing p {
+  font-size: 33px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 10px;
+  letter-spacing: 4px;
+}
+.landing span {
+  background-color: #000000ab;
+  font-weight: bold;
+  padding: 14px 12px;
+  font-size: 37px;
+}
+/* end header */
+/* start projects */
+.projects .parent .child {
+  position: relative;
+  width: calc(100% / 4 - 20px);
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+  overflow: hidden;
+}
+.projects .parent .child img {
+  width: 100%;
+}
+.projects .parent .child span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+/* end projects */
+/* start about */
+.about p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.about .parent .child {
+  position: relative;
+  width: calc(100% / 4 - 10px);
+  margin-right: 10px;
+  float: left;
+  overflow: hidden;
+}
+.about .parent .child img {
+  width: 100%;
+  filter: grayscale(75%);
+}
+.about button {
+  width: 100%;
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+.about button:hover {
+  background-color: rgb(170, 164, 164);
+}
+/* end about */
+/* start contact */
+.contact p {
+  margin-bottom: 30px;
+}
+.contact input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+}
+.contact button {
+  border: none;
+  padding: 8px 16px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.contact button:hover {
+  background-color: rgb(170, 164, 164);
+  color: black;
+}
+.contact img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+/* end contact */
+/* start footer */
+.footer {
+  background-color: black;
+  padding: 35px;
+}
+.footer p {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+.footer a {
+  color: white;
+}
+/* end footer */
