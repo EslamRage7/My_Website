@@ -102,11 +102,9 @@ body {
 .bar button.active > .circle {
   background-color: var(--main-color--) !important;
 }
-/* .bar img {
-  width: 65px;
-} */
 @media (max-width: 988px) {
   .bar {
+    display: none;
     flex-direction: column;
     align-items: end;
     position: absolute;
@@ -133,16 +131,22 @@ body {
     font-size: 15px;
     width: 100px;
   }
-  /* .card {
-    margin-right: 5px !important;
-    width: 370px;
+  .bar .circle {
+    width: 12px;
+    height: 12px;
+  }
+  .portfolio .portfolio_head h3 {
+    margin-bottom: -76px;
   }
 }
 @media (max-width: 568px) {
+  .contact button {
+    width: 120px !important;
+  }
   .card {
-    margin-left: 5% !important;
-    width: 370px;
-  } */
+    margin: auto;
+    width: 330px;
+  }
 }
 /* end nav */
 /* start home */
@@ -161,12 +165,10 @@ body {
 .home img {
   width: 400px;
   border: 3px solid var(--main-color--);
-  height: 350px;
   border-radius: 50% !important;
 }
 /* end home */
 /* start about */
-
 .about .title h4 span {
   color: var(--main-color--);
 }
@@ -219,8 +221,10 @@ body {
 .card {
   background-color: #364b60;
   border: 1px solid transparent;
+  box-shadow: 0px 0px 8px 0px white;
   border-radius: 5px !important;
   overflow: hidden;
+  margin-bottom: 15px;
 }
 .card a {
   width: 100%;
@@ -240,7 +244,7 @@ body {
   transform: scale(1.1);
 }
 /* end portfolio */
-
+/* start contact */
 .contact .sub-title h3 {
   color: var(--main-color--);
   font-weight: 500;
@@ -253,11 +257,13 @@ body {
 .contact .box h4 {
   color: white;
   font-size: 22px;
+  letter-spacing: 1.5px;
 }
 .contact .box h5 {
   color: white;
   font-size: 15px;
   letter-spacing: 1.3px;
+  margin-bottom: 25px;
 }
 .contact .sub-title p {
   font-size: 19px;
@@ -281,7 +287,6 @@ body {
   outline: none;
   color: white;
 }
-
 .contact button {
   background-color: var(--main-color--);
   color: #364b60;
@@ -289,15 +294,6 @@ body {
   width: 200px;
   border-radius: 50px !important;
   margin-bottom: 20px;
-}
-@media (max-width: 568px) {
-  .contact button {
-    width: 100px;
-  } 
-.bar .circle {
-  width:15px;
-  height:15px
-  }
 }
 .contact .facebook,
 .contact .linkedin,
@@ -317,3 +313,4 @@ body {
   color: white;
   transition: 0.2s;
 }
+/* end contact */
