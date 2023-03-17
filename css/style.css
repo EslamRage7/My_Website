@@ -147,7 +147,7 @@ body {
 }
 @media (max-width: 568px) {
   .contact button {
-    width: 120px !important;
+    width: 150px;
   }
   .card {
     margin: auto;
@@ -280,6 +280,7 @@ body {
 }
 .contact input {
   width: 100%;
+  margin-bottom: 15px;
 }
 .contact textarea,
 .contact input {
@@ -297,9 +298,18 @@ body {
   background-color: var(--main-color--);
   color: #364b60;
   padding: 15px;
+  display: block;
+  outline: none;
+  border: none;
   width: 200px;
   border-radius: 50px !important;
   margin-bottom: 20px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.contact button:hover {
+  color: var(--main-color--);
+  background-color: #364b60;
 }
 .contact .facebook,
 .contact .linkedin,
