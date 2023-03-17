@@ -139,6 +139,12 @@ body {
     margin-bottom: -76px;
   }
 }
+@media (max-width: 575px) {
+  .card {
+    margin: auto;
+    width: 350px;
+  }
+}
 @media (max-width: 568px) {
   .contact button {
     width: 120px !important;
