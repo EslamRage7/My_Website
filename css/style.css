@@ -236,10 +236,13 @@ body {
 .card {
   background-color: #364b60;
   border: 1px solid transparent;
-  box-shadow: 0px 0px 8px 0px white;
   border-radius: 5px !important;
   overflow: hidden;
+  transition: 0.3s;
   margin-bottom: 15px;
+}
+.card:hover {
+  box-shadow: 0px 0px 8px 0px white;
 }
 .card a {
   width: 100%;
@@ -317,7 +320,7 @@ body {
   transition: 0.3s;
 }
 .contact button:hover {
-  color: var(--main-color--);
+  color: white;
   background-color: #364b60;
 }
 .contact .facebook,
